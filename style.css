@@ -119,8 +119,8 @@
     opacity: 1;
     animation:
         drop 1s ease-out forwards,
-        spread 1s ease-out 0.8s forwards,
-        fadeout 0.5s ease-in 2.3s forwards;
+        spread 0.8s ease-out 0.5s forwards,
+        fadeout 1s ease-in 1s forwards;
   }
 
   .site-content {
@@ -149,7 +149,7 @@
       top: 0; left: 0;
       width: 100vw;
       height: 100vh;
-      object-fit: cover; /* Centre et remplit sans déformation */
+      object-fit: cover;
       opacity: 0;
       transition: opacity 1s;
       z-index: 1;
