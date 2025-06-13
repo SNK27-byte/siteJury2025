@@ -154,6 +154,9 @@
       transition: opacity 1s;
       z-index: 1;
   }
+  #tattoo{
+      filter: brightness(2.5);
+  }
   .carousel-img.active {
       opacity: 1;
       z-index: 2;
@@ -327,9 +330,6 @@
       border-radius: 30px;
       overflow: hidden;
       box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
-      display: flex;
-      justify-content: center;
-      align-items: center;
   }
   #pres{
       width: 100%;
